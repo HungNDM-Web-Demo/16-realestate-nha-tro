@@ -14,7 +14,7 @@
 | Loại sản phẩm | Web quản lý + giao diện điện thoại cho người thuê |
 | Ý tưởng gốc | 6.1 · Quản lý nhà trọ / căn hộ cho thuê (`ZDOCS/02-KE-HOACH/DANH-SACH-Y-TUONG.md`) |
 | Người phụ trách | |
-| Trạng thái | Mới tạo từ khuôn mẫu |
+| Trạng thái | Có tài liệu nghiệp vụ (SRS, use case, kịch bản demo, kịch bản kiểm thử), chưa code |
 
 ## 2. Vấn đề của khách hàng
 
@@ -45,6 +45,7 @@
 | Area | Chức năng | Màn hình (route FE dự kiến) | Ưu tiên |
 | :--- | :--- | :--- | :---: |
 | `System` | Đăng nhập, tài khoản, vai trò, cài đặt | Có sẵn | — |
+| `Rental` | Tổng quan: phòng trống, thu tiền kỳ này, việc cần làm; trang người thuê | `/dashboard` | P1 |
 | `Rental` | Tòa nhà, phòng | `/buildings`, `/rooms` | P1 |
 | `Rental` | Người thuê, hợp đồng | `/tenants`, `/contracts` | P1 |
 | `Rental` | Chốt điện nước | `/meter-readings` | P1 |
